@@ -1,0 +1,54 @@
+.content {
+  grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.col-wide {
+  grid-column: 1/-1;
+}
+
+.img1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+.img2 {
+  align-self: end;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: -0.005rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.info p+p {
+  margin-top: 30px;
+}
+
+.title {
+  color: #b07dfb;
+}
+
+.title h1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.title span {
+  font-family: 0.75rem;
+  font-style: italic;
+}
+
+.destaque {
+  font-size: 0.875rem;
+  color: #b07dfb;
+  max-width: 16rem;
+}
