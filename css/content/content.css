@@ -52,3 +52,9 @@ p {
   color: #b07dfb;
   max-width: 16rem;
 }
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}

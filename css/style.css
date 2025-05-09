@@ -6,3 +6,6 @@
 @import "./content/content.css";
 @import "./content/features.css";
 @import "./content/quote-atributes.css";
+
+@import "./responsividade/resp-grid.css";
+@import "./responsividade/resp-menu-sidenav.css";
